@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://sipos.fcf.usp.br/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="description" content="SiPoS - Sickness Positioning System">
+        
+        
+        <title> SiPoS </title>
+        <meta name="google-site-verification" content="8hBuX0-uW3KdT9MpnpjiQBJecfSWEGAgADsbH2I2z5w">
+    
+        <link rel="stylesheet" href="./SiPoS_files/new_index.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://sipos.fcf.usp.br/static/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="https://sipos.fcf.usp.br/static/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://sipos.fcf.usp.br/static/favicon-16x16.png" sizes="16x16">
+        <link rel="mask-icon" href="https://sipos.fcf.usp.br/static/safari-pinned-tab.svg" color="#5bbad5">
+        <script>
+            document.addEventListener('DOMContentLoaded', function(event){
+                var ham = document.getElementById('nav-icon');
+                ham.addEventListener('click', function(){
+                    if (this.className.indexOf('open') == -1){
+                        this.setAttribute('class', 'ham open')
+                        document.getElementsByClassName('nav-links')[0]
+                                .style['visibility']='visible'
+                    } else {
+                        this.setAttribute('class', 'ham')
+                        document.getElementsByClassName('nav-links')[0]
+                                .style['visibility']='hidden'
+                    }
+                })
+
+            });
+        </script>
+    </head>
+    <body>
+    
+        <div class="whynot">
+            <a class="fa fa-times close" aria-hidden="true"></a>
+            <h1 style="text-align:center;"> Por que você preferiu não participar? </h1>
+            <form class="opinion" action="https://sipos.fcf.usp.br/whynot" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="csrf_token" value="1604515055.0449955##7652c4baed7c3d4dfb9aec0aab5be89f5728e924">
+                <label class="ido">
+                    <input name="tempo" type="checkbox">
+                        <span class="label-text">Não tenho tempo.</span>
+                    
+                </label>
+                <label class="ido">
+                    <input name="interesse" type="checkbox">
+                        <span class="label-text">Não tenho interesse.</span>
+                    
+                </label>
+                <label class="ido">
+                    <input name="privacidade" type="checkbox">
+                        <span class="label-text">Questões de privacidade.</span>
+                    
+                </label>
+                <label class="ido">
+                    <input name="android" type="checkbox">
+                        <span class="label-text">Não possuo um aparelho android.</span>
+                    
+                </label>
+                <button type="submit" class="submit">Enviar resposta
+            
+        </button></form></div>
+
+        <header class="sect">
+            <div class="navbar">
+                <div class="navopt">
+                    <a href="https://sipos.fcf.usp.br/who">Quem somos</a>
+                </div>
+                <div class="navopt">
+                    <a href="https://sipos.fcf.usp.br/support">Quem nos apoia</a>
+                </div>
+            </div>
+            <div id="brand" class="text-center">
+                <img src="./SiPoS_files/SiPOS_logo5.svg" style="width:70%; height: auto;">
+                <h4>
+                    <div>
+                        <span class="specialchars">Si</span>ckness
+                        <span class="specialchars">Po</span>sitioning
+                        <span class="specialchars">S</span>ystem
+                    </div>
+                </h4>
+            </div>
+            <div class="arrow-down link" href="#about"></div>
+        </header>
+
+        <section id="about" class="sect about white" style="height: auto;">
+            <h2 class="section-title">Sobre </h2>
+            <div class="content" style="text-align:center">
+                <h2 class="abouttext">
+                     Estamos desenvolvendo formas de encontrar regiões de
+                     alto índice de transmissão de doenças. Para que isso seja possível
+                     estamos coletando o histórico de localização de pacientes
+                     com diversas doenças em diversos hospitais de todo o Brasil.
+                     Assim que tivermos dados suficientes, os resultados do estudo
+                     serão disponibilizados para o público. Assista nosso video
+                     para saber mais detalhes do projeto.
+                </h2>
+            </div>
+            <iframe width="560" height="315" src="./SiPoS_files/YIMG-UTAE1Y.html" frameborder="0" allowfullscreen=""></iframe>
+            <a class="link steplink" href="https://sipos.fcf.usp.br/#howto"> Como posso ajudar? </a>
+        </section>
+
+        <section class="sect howto lightcyan">
+            <h2 class="section-title"> Passo-a-passo de como ajudar</h2>
+            <div class="helpsteps">
+                <div class="step one">
+                    <div class="helptooltip title"> Primeiramente, explicaremos para você qual será o destino e para que serão utilizados os seus dados;</div>
+                    <span class="title"><b>Passo 1:<br></b> Consentimento</span>
+                    <img class="stepimg" src="./SiPoS_files/tcle.svg">
+                </div>
+                <div class="step two">
+                    <div class="helptooltip title"> Se você concordar com o termo, ensinaremos você a baixar seu próprio histórico de localização;</div>
+                    <span class="title"><b>Passo 2:<br></b> Baixe os dados</span>
+                    <img class="stepimg" src="./SiPoS_files/download.svg">
+                </div>
+                <div class="step three">
+                    <div class="helptooltip title"> Por último, se você desejar participar da pesquisa, basta nos enviar seus dados neste mesmo site.</div>
+                    <span class="title"><b>Passo 3:<br></b> Envie para nós</span>
+                    <img class="stepimg" src="./SiPoS_files/upload.svg">
+                </div>
+            </div>
+            <div class="horizbuttons">
+                <a class="link steplink" href="https://sipos.fcf.usp.br/#consent"> Quero ajudar</a>
+                <a class="steplink" id="nothanks"> Não, obrigado</a>
+            </div>
+        </section>
+
+        <section class="sect consent white">
+            <h2 class="section-title"> Consentimento</h2>
+            <div class="tcle">
+                <span id="consentitle"> Termo de Consentimento Livre e Esclarecido </span>
+				<p>HOSPITAL DAS CLÍNICAS DA FACULDADE DE MEDICINA DA UNIVERSIDADE DE SÃO PAULO-HCFMUSP</p>
+				<p>TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO</p>
+				<p>
+				<br>
+				</p>
+				<p>DADOS DA PESQUISA</p>
+				<p>Título da pesquisa – AVALIAÇÃO DA DINÂMICA DE TRANSMISSÃO DO NOVO CORONAVÍRUS (SARS-CoV-2) UTILIZANDO DADOS DE GPS</p>
+				<p>
+				<br>
+				</p>
+				<p>Pesquisadores principais Helder Nakaya / Anna Sara S. Levin</p>
+				<p>Faculdade de Ciências Farmacêuticas da USP</p>
+				<p>Departamento/Instituto –Grupo de controle de Infecção Hospitalar do Hospital das Clínicas da FMUSP</p>
+				<p>
+				<br>
+				</p>
+				<p>Convidamos o(a) Sr(a) para participar da pesquisa sobrea dinâmica de transmissão do novo Coronavírus, utilizando dados de GPS de telefone celular no estado de SP. Esta pesquisa visa entender a transmissão do novo Coronavírus e propor ações para prevenção da doença através do histórico de circulação dos participantes da pesquisa com confirmação do novo Coronavírus que tenham celular com sistema Android®.</p>
+				<p>Após sua autorização, em participar deste projeto, serão coletados dadosdo GPS seu celular sobre sua circulação quecompreende o total de 56 dias: os 28 dias que antecederam e os 28 dias após o início dos sintomas do novo Coronavírus.</p>
+				<p>Todas as informações obtidas na pesquisa terão garantia de sigilo absoluto e, somente ficarão na base de dados, as coordenadas dos locais e código identificador.</p>
+				<p>Depois de assinar este formulário, você será orientado a baixar um arquivo que armazena locais geográficos, data e hora dos dados. Para proteger sua privacidade, um número aleatório será gerado pela pesquisa e usado como identificador. Os formulários em papel e online são iguais. Se você assinar o formulário online, poderá pedir que uma cópia em papel.</p>
+				<p>Nenhuma informação pessoal (e-mail, fotos, contatos e nome do participante da pesquisa) será mantida em nossos computadores. Os dados pessoais e/ou de identificação do participante de pesquisa (fotos, lista de contatos entre outras informações) não serão coletadas pelo programa, mas somente dados de localização.</p>
+				<p>Os participantes da pesquisa estarão contribuindo para a obtenção de dados valiosos para esclarecero mecanismo de transmissão do novo Coronavírus.</p>
+				<p>Será mantido em sigilo e privacidadeos dados pessoais e os resultados da pesquisa, e você poderá interromper sua participação em qualquer momento que desejar não tendo nenhum tipo prejuízo pessoal, assim como se optar por não participar.</p>
+				<p>Esta pesquisa envolve que o participante da pesquisa através do celular forneça dados de localização, porém, sempre será mantido o sigilo e confidencialidade, e não haverá exposição de nenhuma forma do participante da pesquisa ou dos dados do celular durante e após a coleta dos dados.</p>
+				<p>Esta pesquisa não envolve despesa ou dano ao participante da pesquisa, porém, eventuais despesas serão ressarcidas e eventuais danos decorrentes desta pesquisa poderão ser indenizados ao participante da pesquisa.</p>
+				<p>Em qualquer etapa do estudo, você terá acesso aos profissionais responsáveis pela pesquisa paraesclarecimento de dúvidas. O principal investigador é o Dr. Anna Sara Levinque pode ser encontrado no endereçoRua Ovidio Pires de Campos, 225, sala 625, 6º andar, São Paulo-SP. Telefone(s) (11) 2661 7066,e-mail: gcih.adm@hc.fm.usp.br.</p>
+				<p>
+				<br>
+				</p>
+				<p>Este estudo foi analisado e aprovado por um órgão governamental denominado CONEP, que assegura a ética da pesquisa. Se você tiver alguma consideração ou dúvida sobre a ética desta pesquisa, poderá entrar em contato com a Comissão Nacional de Ética em Pesquisa (CONEP) – SRTVN- Via W 5 Norte - Edifício PO700 - Quadra 701, Lote D - 3° andar - Asa Norte, CEP 70750 -521, Brasília (DF); Telefone: (61) 3315- 5877. Horário de atendimento: 08h às 18h, ou com o Comitê de Ética em Pesquisa (CEP) do Hospital das Clínicas – Rua Ovídio Pires de Campos, 225 – 5º andar – tel: (11) 2661-7585, (11) 2661-1548, (11) 2661-1549, das 7 às 16h de segunda a sexta feira ou por e-mail: cappesq.adm@hc.fm.usp.br</p>
+				<p>Fui suficientemente informado a respeito do estudo “AVALIAÇÃO DA DINÂMICA DE TRANSMISSÃO DO NOVO CORONAVÍRUS (SARS-CoV-2) UTILIZANDO DADOS DE GPS”.</p>
+				<p>Eu discuti as informações acima com o Pesquisador Responsável Helder Nakaya/ Anna Sara Shafferman Levin oupessoa (s) por ele delegada(s) sobre a minha decisão em participarnesse estudo. Ficaram claros para mim os objetivos, os procedimentos, os potenciais desconfortos eriscos e as garantias. Concordo voluntariamente em participar deste estudo, assino este termo deconsentimento e receberei uma via rubricada pelo pesquisador.</p>
+                
+            </div>
+            <label class="ido" id="confirmcheckbox">
+                <input id="agree" type="checkbox">
+			        <span class="label-text">Li e concordo com o termo de consentimento.</span>
+                
+                <div id="hand"></div>
+            </label>
+            <form action="/files" enctype="multipart/form-data" method="POST">
+              <input class="link steplink" type="file" id="fileid" name="file">
+              <input class="link steplink" type="submit">
+            </form>
+            <!-- <a href="" class="link steplink"> Fazer Upload de Carteira de Vacina!</a> -->
+        </section>
+
+        <section class="sect selection lightcyan">
+            <h2 class="section-title"> Envie os dados </h2>
+              <div class="options">
+                <button id="modal-btn" class="steplink google"><i class="fa fa-google" aria-hidden="true"></i> Via Google</button>
+                <div class="modal">
+                  <div class="modal-content">
+                    <span class="close-btn">×</span>
+                    <h3>Para uso do sistema automático de coleta de dados precisamos ter acesso ao seu Google Drive.
+                      O processo é feito de maneira automática pelo nosso sistema e nenhuma pessoa terá acesso aos arquivos.
+                      Nosso sistema fará uso somente dos seus dados do histórico de localização e nenhum
+                      outro arquivo será acessado para garantir a sua segurança.
+                      Caso queira prosseguir com a coleta automática, clique em "Continuar". <br>
+                      Caso queira, também é possível nos enviar os dados de localização manualmente.</h3>
+                      <a href="https://sipos.fcf.usp.br/glogin" class="continue">Continuar</a>
+                  </div>
+                </div>
+              </div>
+              <script src="./SiPoS_files/continue.js"></script>
+            <a id="diff" href="https://sipos.fcf.usp.br/colaborate/manual">ou envie manualmente </a>
+        </section>
+    
+    
+    
+    <script src="./SiPoS_files/homebundle.js"></script>
+    
+</body></html>
